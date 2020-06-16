@@ -1,0 +1,38 @@
+/* #features {
+    height: 600px;
+    border: 1px solid red;
+}
+
+#how-it-works {
+    height: 200px;
+    border: 1px solid green;
+}
+
+#pricing {
+    height: 200px;
+    border: 1px solid blue;
+} */
+
+.flex {
+    display: flex;
+}
+
+header {
+    position: fixed;
+    top: 0;
+}
+
+#container {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
